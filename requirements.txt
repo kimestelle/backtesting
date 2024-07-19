@@ -1,2 +1,5 @@
 alpaca-py
-alpaca-backtrader-api
+backtrader
+matplotlib
+pandas
+python-dotenv
