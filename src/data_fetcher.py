@@ -11,7 +11,7 @@ def fetch_tick_data():
     client = StockHistoricalDataClient(API_KEY, API_SECRET)
 
     request_params = StockTradesRequest(
-        symbol_or_symbols="AAPL",
+        symbol_or_symbols="FUN",
         start=datetime(2024, 1, 30, 14, 30),
         end=datetime(2024, 1, 30, 14, 45)
     )
